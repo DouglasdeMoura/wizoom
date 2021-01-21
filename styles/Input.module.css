@@ -1,0 +1,45 @@
+.label {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.input,
+.inputWithIcon {
+  background: var(--color-grey-100);
+  border: 1px solid var(--color-grey-200);
+  color: 1px solid var(--color-grey-200);
+  border-radius: var(--border-radius);
+  padding: 1em;
+  margin-bottom: var(--padding);
+  width: 100%;
+}
+
+.inputWithIcon {
+  padding-left: 3.5rem;
+}
+
+.input:focus,
+.inputWithIcon:focus {
+  border-color: var(--color-white);
+}
+
+.inputBlock {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 4.7rem;
+  padding-left: 1rem;
+  color: var(--color-grey-200);
+}
+
+.icon svg {
+  height: 1.6rem;
+  width: auto;
+}
