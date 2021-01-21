@@ -1,0 +1,33 @@
+.button {
+  background: var(--color-yellow-400);
+  outline: 0;
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  font-weight: bold;
+  padding: calc(var(--padding) / 1.2) var(--padding);
+  width: 100%;
+  border-radius: var(--border-radius);
+  margin-top: var(--padding);
+  display: flex;
+  gap: var(--padding);
+  align-items: baseline;
+  justify-content: space-between;
+  position: relative;
+}
+
+.button:hover {
+  background: var(--color-yellow-300);
+}
+
+.buttonIcon {
+  position: absolute;
+  right: var(--padding);
+  margin-top: 1px;
+}
+
+@media (min-width: 560px) {
+  .button {
+    justify-content: center;
+  }
+}
